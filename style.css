@@ -6,6 +6,13 @@
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     font-family: 'Roboto', sans-serif;
 }
+.title{
+    text-align: center;
+}
+.personal_info__list{
+    list-style-type: none;
+    line-height: 24px;
+}
 .name_photo{
     display: flex;
     justify-content: space-between;

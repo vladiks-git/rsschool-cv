@@ -3,8 +3,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,22 +10,30 @@
     <title>CV</title>
 </head>
 <body>
+<main>
 <div class="main">
+    <section class="title">
+        <h1>CV</h1>
+    </section>
     <div class="name_photo">
         <div class="name_photo__name">
+            <section>
             <h2>Ershov Vladislav</h2>
+            </section>
         </div>
         <div class="name_photo__photo">
-            <img class="name_photo__img" src="https://www.publicdomainpictures.net/pictures/270000/velka/avatar-people-person-business-u.jpg"/>
+            <img alt="photo" class="name_photo__img" src="https://www.publicdomainpictures.net/pictures/270000/velka/avatar-people-person-business-u.jpg"/>
         </div>
     </div>
     <div class="personal_info">
         <h3>Personal information</h3>
-        <p><span class="personal_info__section">Address:</span> 5 Stroiteley street, Novokuibyshevsk</p>
-        <p><span class="personal_info__section">Telephone:</span> mobile: +7 996 619 70 76</p>
-        <p><span class="personal_info__section">Email: </span>ershovvlad18@yandex.ru</p>
-        <p><span class="personal_info__section">Date of birth: </span>18th May 1999</p>
-        <p><span class="personal_info__section">Nationality: </span>Russian</p>
+        <ul class="personal_info__list">
+            <li><span class="personal_info__section">Address:</span> 5 Stroiteley street, Novokuibyshevsk</li>
+            <li><span class="personal_info__section">Telephone:</span> mobile: +7 996 619 70 76</li>
+            <li><span class="personal_info__section">Email: </span>ershovvlad18@yandex.ru</li>
+            <li><span class="personal_info__section">Date of birth: </span>18th May 1999</li>
+            <li><span class="personal_info__section">Nationality: </span>Russian</li>
+        </ul>
     </div>
     <div class="objective">
         <h3>Objective</h3>
@@ -75,13 +81,14 @@
             <li>Spring + Angular + Postgres <a href="https://github.com/vladiks-git/erblog">https://github.com/vladiks-git/erblog</a></li>
             <li>Native JS <a href="https://github.com/vladiks-git/yoga">https://github.com/vladiks-git/yoga</a></li>
             <li>React <a href="https://github.com/vladiks-git/react-quiz">https://github.com/vladiks-git/react-quiz</a></li>
-            <p>More examples - <a href="https://github.com/vladiks-git">https://github.com/vladiks-git</a></p>
         </ul>
+        <p>More examples - <a href="https://github.com/vladiks-git">https://github.com/vladiks-git</a></p>
     </div>
     <div class="english">
         <h3>English skills</h3>
         <p>My English level is A2</p>
     </div>
 </div>
+</main>
 </body>
 </html>
